@@ -4,10 +4,10 @@
 # Single.html
 
 [Written]
-other = "书写"
+other = "Written"
 
 [by]
-other = "由"
+other = "by"
 
 [with]
 other = "with"
@@ -19,30 +19,30 @@ other = "on"
 other = "in"
 
 [Author]
-other = "作者"
+other = "Author"
 
 [Words]
-other = "字数"
+other = "Words"
 
 [Tag]
-other = "标签"
+other = "Tag"
 
 [Home]
-other = "首页"
+other = "Home"
 
 [back]
-other = "返回"
+other = "Back"
 
 [minute]
 other = "minute"
 
 [Share]
-other = "分享到"
+other = "Share"
 
 # 404.html
 
 [page]
-other = "页面"
+other = "page"
 
 [not]
 other = "not"
@@ -51,7 +51,7 @@ other = "not"
 other = "found"
 
 [return]
-other = "返回"
+other = "Return"
 
 [to]
 other = "to"
@@ -59,12 +59,12 @@ other = "to"
 # Pagination
 
 [More]
-other = "更多 ->"
+other = "More"
 
 # Related post
 
 [Related]
-other = "关于"
+other = "Related"
 
 [Articles]
-other = "文章"
+other = "Articles"
