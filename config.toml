@@ -1,7 +1,6 @@
 baseURL = "https://example.com"
-
-languageCode = "zh-cn"
-defaultContentLanguage = "zh-cn"
+languageCode = "en"
+defaultContentLanguage = "en"
 title = "佳人"
 theme = "KeepIt"
 
