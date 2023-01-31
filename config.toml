@@ -46,7 +46,7 @@ disqusShortname = "yourdiscussshortname"
     subtitle = "若把你比作歌，便是那高山流水~ ❤️"       # Subtitle
     cdn_url = ""           # Base CDN URL
     home_mode = "" # post or other
-    dateFormatToUse = "" # set date format, default "2 January 2006"
+    dateFormatToUse = "2006-01-02" # set date format, default "2 January 2006"
     
     google_verification = ""
     bing_verification = ""
