@@ -36,7 +36,7 @@ jQuery(function($) {
         $('.theme-switch').on('click', () => {
             $('body').toggleClass('dark-theme')
             window.localStorage &&
-                window.localStorage.setItem('theme', document.body.classList.contains('dark-theme') ? 'dark' : 'light', )
+                window.localStorage.setItem('theme', document.body.classList.contains('dark-theme') ? 'dark' : 'light',)
         })
     }
 
@@ -54,3 +54,8 @@ jQuery(function($) {
         _Blog.toggleMobileMenu()
     });
 });
+
+window.onload = function () {
+    console.log(1314);
+    Particles.init({ selector: '.background', color: '#5aa4ae', connectParticles: true  });
+};
