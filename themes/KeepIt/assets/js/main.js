@@ -57,5 +57,9 @@ jQuery(function($) {
 
 window.onload = function () {
     console.log(1314);
-    Particles.init({ selector: '.background', color: '#5aa4ae', connectParticles: true  });
+    var number = 100;
+    if(window.navigator.userAgent.includes('Android')){
+        number = 20;
+    }
+    Particles.init({ selector: '.background', maxParticles: number, color: '#5aa4ae', connectParticles: true  });
 };
