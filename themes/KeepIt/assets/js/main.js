@@ -58,7 +58,7 @@ jQuery(function($) {
 window.onload = function () {
     console.log(1314);
     var number = 100;
-    if(window.navigator.userAgent.includes('Android')){
+    if(window.navigator.userAgent.includes('Android') || window.navigator.userAgent.includes('iPhone')){
         number = 20;
     }
     Particles.init({ selector: '.background', maxParticles: number, color: '#5aa4ae', connectParticles: true  });
