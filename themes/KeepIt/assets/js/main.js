@@ -1,16 +1,16 @@
-jQuery(function($) {
+jQuery(function ($) {
 
     'use strict';
 
     var _Blog = window._Blog || {};
 
-    _Blog.prettify = function() {
+    _Blog.prettify = function () {
         $('pre').addClass('prettyprint linenums').attr('style', 'overflow:auto;');
         window.prettyPrint && prettyPrint();
     };
 
-    _Blog.externalUrl = function() {
-        $.expr[':'].external = function(obj) {
+    _Blog.externalUrl = function () {
+        $.expr[':'].external = function (obj) {
             return !obj.href.match(/^mailto\:/) &&
                 (obj.hostname != location.hostname);
         };
@@ -19,35 +19,39 @@ jQuery(function($) {
 
     }
 
-    _Blog.changeTitle = function() {
+    _Blog.changeTitle = function () {
         var currentTitle = document.title;
-        window.onblur = function() {
+        window.onblur = function () {
             document.title = currentTitle;
         }
-        window.onfocus = function() {
+        window.onfocus = function () {
             document.title = currentTitle;
         }
     };
 
-    _Blog.toggleTheme = function() {
+    _Blog.toggleTheme = function () {
         const currentTheme = window.localStorage && window.localStorage.getItem('theme')
         const isDark = currentTheme === 'dark'
+
         $('body').toggleClass('dark-theme', isDark)
         $('.theme-switch').on('click', () => {
+
             $('body').toggleClass('dark-theme')
+            const hasDarkClass = !!$('body').attr('class')
+            $("#website_logo").attr('src', hasDarkClass ? '/images/me/title2.png' : '/images/me/title1.png');
             window.localStorage &&
-                window.localStorage.setItem('theme', document.body.classList.contains('dark-theme') ? 'dark' : 'light',)
+                window.localStorage.setItem('theme', document.body.classList.contains('dark-theme') ? 'dark' : 'light',);
         })
     }
 
-    _Blog.toggleMobileMenu = function() {
+    _Blog.toggleMobileMenu = function () {
         $('.menu-toggle').on('click', () => {
             $('.menu-toggle').toggleClass('active')
             $('#mobile-menu').toggleClass('active')
         })
     }
 
-    $(document).ready(function() {
+    $(document).ready(function () {
         _Blog.prettify()
         _Blog.changeTitle()
         _Blog.toggleTheme()
@@ -58,8 +62,12 @@ jQuery(function($) {
 window.onload = function () {
     console.log(1314);
     var number = 100;
-    if(window.navigator.userAgent.includes('Android') || window.navigator.userAgent.includes('iPhone')){
+    if (window.navigator.userAgent.includes('Android') || window.navigator.userAgent.includes('iPhone')) {
         number = 20;
     }
-    Particles.init({ selector: '.background', maxParticles: number, color: '#5aa4ae', connectParticles: true  });
+    Particles.init({ selector: '.background', maxParticles: number, color: '#5aa4ae', connectParticles: true });
+    setTimeout(() => {
+        const hasDarkClass = !!$('body').attr('class')
+        $("#website_logo").attr('src', hasDarkClass ? '/images/me/title2.png' : '/images/me/title1.png');
+    }, 10);
 };

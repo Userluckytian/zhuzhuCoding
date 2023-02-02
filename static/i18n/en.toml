@@ -1,0 +1,70 @@
+# Translations for English
+# https://gohugo.io/content-management/multilingual/#translation-of-strings
+
+# Single.html
+
+[Written]
+other = "书写"
+
+[by]
+other = "由"
+
+[with]
+other = "with"
+
+[on]
+other = "on"
+
+[in]
+other = "in"
+
+[Author]
+other = "作者"
+
+[Words]
+other = "字数"
+
+[Tag]
+other = "标签"
+
+[Home]
+other = "首页"
+
+[back]
+other = "返回"
+
+[minute]
+other = "minute"
+
+[Share]
+other = "分享到"
+
+# 404.html
+
+[page]
+other = "页面"
+
+[not]
+other = "not"
+
+[found]
+other = "found"
+
+[return]
+other = "返回"
+
+[to]
+other = "to"
+
+# Pagination
+
+[More]
+other = "更多 ->"
+
+# Related post
+
+[Related]
+other = "关于"
+
+[Articles]
+other = "文章"

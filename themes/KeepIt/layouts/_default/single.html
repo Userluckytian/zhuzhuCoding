@@ -75,23 +75,24 @@
             {{ end }}
     </div>
 
-  
+    <!-- 标签 + 返回 + 首页 -->
     <div class="post-tags">
         {{ with .Params.tags }}
             <section>
             <i class="iconfont icon-icon-tag"></i>{{ i18n "Tag" }}: 
             {{ range . }}
             <span class="tag"><a href="{{ "tags/" | absURL }}{{ . | urlize }}/">
-                    #{{.}}</a></span>
+                    {{.}}</a></span>
             {{ end }}
             </section>
         {{ end }}
+        <!-- back  +  home -->
         <section>
                 <a href="javascript:window.history.back();">{{ i18n "back" }}</a></span> · 
                 <span><a href="{{ .Site.BaseURL }}">{{ i18n "Home" }}</a></span>
         </section>
     </div>
-
+    <!-- 下一章 上一章 -->
     <div class="post-nav">
         {{ if .PrevInSection }}
         <a href="{{.PrevInSection.Permalink}}" class="prev" rel="prev" title="{{ .PrevInSection.Title}}"><i class="iconfont icon-dajiantou"></i>&nbsp;{{ .PrevInSection.Title}}</a>
@@ -100,12 +101,12 @@
         <a href="{{.NextInSection.Permalink}}" class="next" rel="next" title="{{.NextInSection.Title}}">{{.NextInSection.Title}}&nbsp;<i class="iconfont icon-xiaojiantou"></i></a>
         {{ end }}
     </div>
-
-    <div class="post-comment">
+    <!-- 评论 -->
+    <!-- <div class="post-comment">
           {{ if ( .Params.showComments | default true ) }}
           {{ partial "comments.html" . }}
           {{ end }}
-    </div>
+    </div> -->
 </article>
 {{- end }}
 

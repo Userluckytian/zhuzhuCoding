@@ -1,7 +1,7 @@
-baseURL = "https://zhuzhu-coding.vercel.app/"
+baseURL = "https://userluckytian.github.io/"
 languageCode = "en"
 defaultContentLanguage = "en"
-title = "佳人"
+title = "/images/me/title1.png"
 theme = "KeepIt"
 
 paginate = 12
@@ -67,11 +67,13 @@ disqusShortname = "yourdiscussshortname"
 # 社交信息地址
 [params.social]
     GitHub = "xxxx"
-    Linkedin = "xxxx"
-    Twitter = "xxxx"
-    #Instagram = "xxxx"
+    Instagram = "xxxx"
+    Codepen = "xxxx"
+    Weibo = "xxxx"
+    #Linkedin = "xxxx"
+    #Twitter = "xxxx"
     #Email   = "xxxx"
-    Facebook = "xxxx"
+    #Facebook = "xxxx"
     #Telegram = "xxxx"
     #Medium = "xxxx"
     #Gitlab = "xxxx"
@@ -83,10 +85,8 @@ disqusShortname = "yourdiscussshortname"
     #Keybase = "xxxx"
     #Pinterest = "xxxx"
     #Reddit = "xxxx"
-    #Codepen = "xxxx"
     #Bitbucket = "xxxx"
     #Stackoverflow = "xxxxx"
-    #Weibo = "xxxx"
     #Odnoklassniki = "xxxx"
     #VKontakte = "xxxx"
     #Flickr = "xxxx"
@@ -126,17 +126,17 @@ disqusShortname = "yourdiscussshortname"
 
 # 是否打开对于的社交标识
 [params.share]
-    Twitter = true
-    Facebook = true
+    #Twitter = true
+    #Facebook = true
     #Reddit = true
-    Linkedin = true
+    #Linkedin = true
     #Pinterest = true
     #HackerNews = true
     #Mix = true
     #Tumblr = true
     #VKontakte = true
     #Douban = true
-    #Weibo = true
+    Weibo = true
 
 # Used only for Seo schema
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."

@@ -2,3 +2,9 @@
 // Custom style
 // ==============================
 // You can override the variables in _variables.scss to customize the style
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    line-height: 50%;
+}
