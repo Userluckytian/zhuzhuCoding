@@ -1,6 +1,6 @@
 # Basic
 title = "BuBu House~"
-baseURL = "https://vno-hugo.netlify.app/"
+baseURL = "https://zhuzhu-coding.vercel.app/"
 theme = "vno-hugo"
 
 # supported languages: en-us, zh-cn (lowercase language codes only)
