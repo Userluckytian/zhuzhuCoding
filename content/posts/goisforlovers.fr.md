@@ -19,7 +19,7 @@ nombre de fonctions logiques. À notre expérience, c'est juste ce qu'il faut po
 créer un bon site web statique. Si vous avez déjà utilisé d'autre moteurs de
 modèles pour différents langages ou frameworks, vous allez retrouver beaucoup de
 similitudes avec les modèles go.
-
+<!-- more -->
 Ce document est une introduction sur l'utilisation de Go templates. La
 [documentation go][gohtmltemplate] fourni plus de détails.
 

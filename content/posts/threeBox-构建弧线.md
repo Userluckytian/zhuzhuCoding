@@ -14,7 +14,11 @@ categories: [ "ThreeBox" ]
 1. 代码见参考文献（1）
 
 ![image.png](https://cdn.nlark.com/yuque/0/2022/png/1660789/1669359257871-cec4c977-dad7-4b92-831c-1afa75c9841a.png#averageHue=%235c6046&clientId=u00957b73-b343-4&from=paste&height=670&id=lmxUX&name=image.png&originHeight=670&originWidth=1187&originalType=binary&ratio=1&rotation=0&showTitle=false&size=236198&status=done&style=none&taskId=u0522fab6-6290-4cf2-87ce-0c2c7d2a9b9&title=&width=1187)
+
+<!-- more -->
+
 <a name="MgeE9"></a>
+
 ## 代码解读（以构建一条弧线为例）：
 <a name="yTCjk"></a>
 ### 概述（整体思路）：

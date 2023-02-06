@@ -9,7 +9,7 @@ draft: false
 #### What's this
 
 [Vno Hugo](https://github.com/xslingcn/vno-hugo) is a theme for [Hugo](https://gohugo.io). It is a port of [onevcat](https://onevcat.com)'s [Vno Jekyll](https://github.com/onevcat/vno-jekyll), which is originally developed from [Dale Anthony's Uno](https://github.com/daleanthony/uno).
-
+<!-- more -->
 #### Usage
 Inside the folder of your Hugo site run:
 ```bash

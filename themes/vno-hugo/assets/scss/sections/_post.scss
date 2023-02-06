@@ -23,8 +23,27 @@
   margin-right: .5em;
 }
 
+
 .post-meta__tags {
   margin-left: .4em;
+
+}
+
+.tags{
+  min-height: 1.5rem;
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+  i{
+    margin-right: .4rem;
+  }
+  a{
+    padding: 2px 4px;
+    border-radius: 4px;
+    line-height: .8rem;
+    margin-right: 0.5rem;
+    background: #e0e0e0;
+  }
 }
 
 .post-meta__author {

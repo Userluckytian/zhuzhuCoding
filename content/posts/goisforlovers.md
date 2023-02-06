@@ -28,9 +28,9 @@ similarities in Go templates.
 
 This document is a brief primer on using Go templates. The [Go docs][gohtmltemplate]
 provide more details.
-
 ## Introduction to Go Templates
 
+<!-- more -->
 Go templates provide an extremely simple template language. It adheres to the
 belief that only the most basic of logic belongs in the template or view layer.
 One consequence of this simplicity is that Go templates parse very quickly.

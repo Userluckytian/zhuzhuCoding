@@ -7,6 +7,9 @@
 [recent]
   other = 'Recent'
 
+[tag]
+  other = 'tag'
+
 [license]
   other = 'This site is licensed under a <a href="{{ .Site.Params.copyright.license_link }}">{{ .Site.Params.copyright.license  }}</a> license.'
 

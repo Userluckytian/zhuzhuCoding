@@ -80,7 +80,7 @@
         {{ with .Params.tags }}
             <section>
             <!-- <i class="iconfont icon-icon-tag"></i>{{ i18n "Tag" }}:  -->
-            <i class="iconfont icon-icon-tag"></i>标签: 
+            <i class="iconfont icon-icon-tag"></i>{{ T "tag" }}：
             {{ range . }}
             <span class="tag"><a href="{{ "tags/" | absURL }}{{ . | urlize }}/">
                     {{.}}</a></span>

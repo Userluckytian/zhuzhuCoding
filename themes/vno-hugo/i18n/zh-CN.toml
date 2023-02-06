@@ -7,6 +7,9 @@
 [recent]
   other = '下一篇'
 
+[tag]
+  other = '标签'
+
 [license]
   other = '本站点内容基于 <a href="{{ .Site.Params.copyright.license_link }}">{{ .Site.Params.copyright.license  }}</a> 协议发布。'
 
